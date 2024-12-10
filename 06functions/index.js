@@ -2,7 +2,7 @@
 // hero_name,movie_name,director_name,and plotof_movie and invoke the function 
 
 
-function movie(){
+function movies(){
     var a = "NTR"
     var b = "RRR"
     var c = "ss rajamouli"
@@ -15,6 +15,6 @@ function movie(){
     }
     console.log(movieObject);
 }
-movie()
+movies()
 
 
