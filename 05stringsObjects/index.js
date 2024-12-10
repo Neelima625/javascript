@@ -1,6 +1,6 @@
 // STRINGS TASKS
 //  code  to concat the both string and convert the combined string into uppercase string
-var str1="     Kavya"
+var str1="     Neelima"
 var str2="GOUD      "
 var str3=str1.concat(str2)
 console.log(str3);
@@ -25,7 +25,7 @@ console.log(lowerstr);
 // then extract the last second char 
 
 var char="S"
-var upperstr=char.concat("KavyaGoud").toUpperCase();
+var upperstr=char.concat("NeelimaGoud").toUpperCase();
 console.log(upperstr);
 var lastsecondchar=upperstr.charAt(upperstr.length-2)
 console.log(lastsecondchar);
@@ -52,7 +52,7 @@ console.log(lastsecondchar);
 //  concatenate it with another string
 
 
-const str = "   shivannagari kavya   ";
+const str = "   aileni Neelima   ";
 const toExtract = 3;
 const additionalString = " Goud";
 const trimmedStr = str.trim();
@@ -78,7 +78,7 @@ var sentence="hello there , how are you "
 // Access and print the firstName property.
 // Add a new property city with the value "New York" and print the updated object.
 
-var person={firstName:"kavya",lastName:"shivannagari",age:20};
+var person={firstName:"Neelima",lastName:"aileni",age:20};
 console.log(person.firstName);
 person.city="New York"
 console.log(person);
@@ -116,9 +116,9 @@ console.log(library);
 // Add a new property phone to the user object and observe the result.
 
 
-var user={username:"kavya goud",email:"kavyagoud@gmail.com",address:{city:"Narsapur",state:"Telanagan",zip:"502313"}}
+var user={username:"Neelima goud",email:"Neelimagoud@gmail.com",address:{city:"Narsapur",state:"Telanagan",zip:"502313"}}
 Object.freeze(user);
-user.email="kavya@gmail.com"
+user.email="Neelima@gmail.com"
 console.log(user);
 var userfrozen=Object.isFrozen(user);
  console.log(userfrozen);
